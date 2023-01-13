@@ -1,0 +1,27 @@
+{
+  "ProductAuthStack": {
+    "UserPoolClientId": "2becm8seaiol1gdr3uvr4i8bue",
+    "UserPoolId": "us-east-1_KcRwIEqwx",
+    "ExportsOutputRefProductUserpoolClientB575D22F96B1DF2B": "2becm8seaiol1gdr3uvr4i8bue",
+    "ExportsOutputRefProductUserpoolCCF86EC0B008D6D1": "us-east-1_KcRwIEqwx"
+  },
+  "ProductDatabaseStack": {
+    "ExportsOutputFnGetAttProductTableB8D4E9EDArn9E8D595F": "arn:aws:dynamodb:us-east-1:521776702104:table/ProductDatabaseStack-ProductTableB8D4E9ED-1R7CGWF82FZIR",
+    "ExportsOutputRefProductTableB8D4E9ED1EF21745": "ProductDatabaseStack-ProductTableB8D4E9ED-1R7CGWF82FZIR"
+  },
+  "ProductAppSyncAPIStack": {
+    "GraphQLAPIID": "7w7n2gaksnhirkx4rumhhhyt6u",
+    "ExportsOutputFnGetAttAPISamples780B5D88ApiId3077EBEE": "7w7n2gaksnhirkx4rumhhhyt6u",
+    "GraphQLAPIURL": "https://ulgcri74prestbdtt72nm3wpeq.appsync-api.us-east-1.amazonaws.com/graphql"
+  },
+  "ProductIdentityStack": {
+    "ExportsOutputRefProductIdentityPoolUnauthenticatedRoleB676000166F601AC": "ProductIdentityStack-ProductIdentityPoolUnauthenti-LLK9490NRVHR",
+    "ExportsOutputRefProductIdentityPoolAuthenticatedRole7D70DE74DB087A5A": "ProductIdentityStack-ProductIdentityPoolAuthentica-TPQ7KG0YGD2A",
+    "IdentityPoolId": "us-east-1:ca5a162a-8e93-4847-9864-1f1fef1c7d9b"
+  },
+  "ProductFileStorageStack": {
+    "BucketName": "productfilestoragestack-productbucket674e806c-vu5bd2brtrhy",
+    "BucketRegion": "us-east-1",
+    "distDomainName": "d1aiv8f5ptrlie.cloudfront.net"
+  }
+}
