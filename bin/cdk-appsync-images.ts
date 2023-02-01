@@ -2,7 +2,7 @@
 import 'source-map-support/register'
 import * as cdk from 'aws-cdk-lib'
 import { AuthStack } from '../lib/AuthStack'
-import { FileStorageStack } from '../lib/fileStorageStack'
+import { FileStorageStack } from '../lib/FileStorageStack'
 import { DatabaseStack } from '../lib/DatabaseStack'
 import { IdentityStack } from '../lib/IdentityStack'
 import { APIStack } from '../lib/APIStack'
